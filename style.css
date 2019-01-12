@@ -29,6 +29,18 @@ body {
   position: absolute;
 }
 
+.home a {
+  position: relative;
+  display: block;
+  margin: 15px 0 0 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.home a:hover {
+  color: lightgray;
+}
+
 .search {
   height: 50px;
   width: 100%;

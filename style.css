@@ -21,6 +21,13 @@ body {
   margin-bottom: 20px;
 }
 
+.search {
+  height: 50px;
+  width: 100%;
+  background-color: darkgray;
+  position: relative;
+  display: inline-flex;
+}
 
 .home {
   width: 50px;
@@ -41,18 +48,38 @@ body {
   color: lightgray;
 }
 
-.search {
-  height: 50px;
-  width: 100%;
-  background-color: darkgray;
-  position: relative;
-}
-
 .searchbox {
   height: 50px;
   margin-left: 50px;
+  width: 100%;
   background-color: white;
+}
+
+.searchbox input{
+  height:100%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.find {
+  width: 50px;
+  background-color: gray;
+  height: 50px;
+  float: right;
+}
+
+.find a {
   position: relative;
+  display: block;
+  margin: 15px 0 0 5px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.find a:hover {
+  color: lightgray;
 }
 
 .page {
@@ -74,6 +101,7 @@ body {
   width: 300px;
   background-color: white;
   margin: 20px 10px 0px;
+  border: solid 1px darkgray;
 }
 
 .pic {
@@ -103,7 +131,7 @@ body {
 }
 
 .fact {
-  height: 120px;
+  height: 118px;
   background-color: white;
   overflow: hidden;
   position: relative;
@@ -148,6 +176,15 @@ body {
   padding: 1% 5%;
 }
 
+.bulletpoints {
+  text-align: left;
+  font-size: 25px;
+}
+
+.sources {
+  text-align: left;
+}
+
 .bigTitle {
   color: gray;
   font-size: 50px;
@@ -156,6 +193,7 @@ body {
 .related {
   display: inline-block;
   height: auto;
+  margin-bottom: 20px;
 }
 
 .relatedHeading {
